@@ -1,0 +1,12 @@
+{
+  "name": "Gemini Voice Editor",
+  "id": "figma-gemini-voice-editor",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": ["figma"],
+  "networkAccess": {
+    "allowedDomains": ["*"],
+    "reasoning": "Required for WebSocket connection to local server for voice command processing"
+  }
+}
